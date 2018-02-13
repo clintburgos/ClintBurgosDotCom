@@ -3,9 +3,7 @@
     <div id="about">
       <text-block
         title='I thrive with heavy research and fine-tuning.'
-        text='After getting my start as a programmer in neuroscience labs, I took on a series of open-ended projects at Wayfair in which I had generous control of project direction and design… 
-
-
+        text='After getting my start as a programmer in neuroscience labs, I took on a series of open-ended projects at Wayfair in which I had generous control of project direction and design...<br><br>
         Get in contact with me with the social media links at the bottom of the page. Together let’s learn, innovate, and make cool stuff!'
       />
     </div>
@@ -22,14 +20,15 @@ export default {
 <style scoped>
 
 #about {
-  display: inline-block;
   vertical-align: top;
+  display: inline-block;
 }
 
 #me_cutout {
   margin-left: 8px;
   width: 211px;
   height: 250px;
+  display: inline-block;
 }
 
 </style>

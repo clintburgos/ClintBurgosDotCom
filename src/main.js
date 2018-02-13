@@ -7,6 +7,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('text-block', TextBlock)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
@@ -14,5 +16,3 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-
-Vue.component('text-block', TextBlock)

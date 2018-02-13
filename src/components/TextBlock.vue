@@ -2,7 +2,7 @@
   <div id="text-block-container">
     <h1>{{ title }}</h1>
     <br>
-    <span>{{ text }}</span>
+    <span v-html="text"></span>
   </div>
 </template>
 
