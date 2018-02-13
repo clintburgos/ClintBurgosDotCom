@@ -1,6 +1,7 @@
 <template>
   <div>
     <img id="me_cutout" src="../assets/me_banner.jpg">
+    <div class="padding"></div>
     <div id="about">
       <text-block
         title='I thrive with heavy research and fine-tuning.'
@@ -26,8 +27,9 @@ export default {
 
 #me_cutout {
   padding: 0px;
-  margin: 0px;
-  width: 100%
+  margin-left: -16px;
+  margin-right: -16px;
+  width: 101%;
   /*display: inline-block;*/
 }
 

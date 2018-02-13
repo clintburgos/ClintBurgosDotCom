@@ -9,8 +9,7 @@
           <a href='resume'>Resume</a>
         </div>
       </div>
-      <div id="line"></div>
-      <div id="padding"></div>
+      <div class="padding"></div>
     </div>
     <router-view/>
     <div id="footer">
@@ -102,21 +101,22 @@ h1 {
 }
 
 #line {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   height: 1px;
   background-color: #999999;
   position: relative;
-}
-
-#padding {
-  height: 24px;
 }
 
 #footer {
   margin-top: 40px;
   margin-left: 128px;
   margin-right: 128px;
+  margin-bottom: 128px
+}
+
+.padding {
+  height: 24px;
 }
 
 .footer-icon:hover {
