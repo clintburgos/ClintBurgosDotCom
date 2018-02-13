@@ -33,6 +33,11 @@ export default {
 
 <style>
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   color: #999999;
   text-decoration: none;
@@ -64,6 +69,7 @@ h1 {
 #app {
   margin: 0px;
   padding: 0px;
+  width: 100%;
   font-family: "lemonde-journal", Georgia, serif;;
   font-style: normal;
   font-weight: 400;

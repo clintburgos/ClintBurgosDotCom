@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home-container">
     <img id="me_cutout" src="../assets/me_banner.jpg">
     <div class="padding"></div>
     <div id="about">
@@ -27,9 +27,8 @@ export default {
 
 #me_cutout {
   padding: 0px;
-  margin-left: -16px;
-  margin-right: -16px;
-  width: 101%;
+  margin: 0px;
+  width: 100%;
   /*display: inline-block;*/
 }
 
