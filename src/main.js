@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import TextBlock from './components/TextBlock'
 import router from './router'
 
 Vue.config.productionTip = false
@@ -13,3 +14,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+Vue.component('text-block', TextBlock)

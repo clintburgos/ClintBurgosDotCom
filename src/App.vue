@@ -10,6 +10,7 @@
         </div>
       </div>
       <div id="line"></div>
+      <div id="padding"></div>
     </div>
     <router-view/>
     <div id="footer">
@@ -34,7 +35,10 @@ export default {
 <style>
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Georgia';
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -42,8 +46,6 @@ export default {
 }
 
 #header {
-  font-family: 'Georgia';
-  font-size: 18px;
   margin-top: 40px;
   margin-left: 128px;
   margin-right: 128px;
@@ -76,6 +78,10 @@ export default {
   position: relative;
 }
 
+#padding {
+  height: 24px;
+}
+
 #footer {
   margin-top: 40px;
   margin-left: 128px;
@@ -97,6 +103,12 @@ a:link {
 
 a:hover {
   color: #000000;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-size: 24px;
+  margin: 0px;
 }
 
 </style>
