@@ -11,7 +11,17 @@
       </div>
       <div id="line"></div>
     </div>
-    <!-- <router-view/> -->
+    <router-view/>
+    <div id="footer">
+      <div id="line"></div>
+      <a href="https://www.linkedin.com/in/clintburgos/" target="_blank">
+        <img class="footer-icon" src="./assets/linkedin_icon.png" alt="LinkedIn">
+      </a>
+      &emsp;
+      <a href="https://github.com/clintburgos" target="_blank">
+        <img class="footer-icon" src="./assets/github_icon.png" alt="GitHub">
+      </a>
+    </div>
   </div>
 </template>
 
@@ -37,7 +47,6 @@ export default {
   margin-top: 40px;
   margin-left: 128px;
   margin-right: 128px;
-  padding: 0px;
 }
 
 #nav-container {
@@ -61,9 +70,24 @@ export default {
 
 #line {
   margin-top: 8px;
+  margin-bottom: 8px;
   height: 1px;
   background-color: #999999;
   position: relative;
+}
+
+#footer {
+  margin-top: 40px;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.footer-icon:hover {
+  opacity: 0.6;
+}
+
+a {
+  target: '_blank';
 }
 
 a:link {
@@ -72,7 +96,7 @@ a:link {
 }
 
 a:hover {
-  color: #666666;
+  color: #000000;
 }
 
 </style>
