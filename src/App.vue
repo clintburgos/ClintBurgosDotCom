@@ -2,7 +2,7 @@
   <div id="app">
     <div id="header">
       <div id="nav-container">
-        <a href="/"><div id="name">Clint Burgos</div></a>
+        <div id="name"><a href="/">Clint Burgos</a></div>
         <div id="nav">
           <a href='work'>Work</a>
           &emsp;
@@ -44,11 +44,11 @@ a:visited {
 }
 
 a:hover {
-  color: #000000;
+  color: #424242;
 }
 
 a:active {
-  color: #000000;
+  color: #424242;
 }
 
 h1 {
@@ -93,6 +93,14 @@ h1 {
   display: inline-block;
 }
 
+#name a {
+  color: #424242;
+}
+
+#name a:visited {
+  color: #424242;
+}
+
 #nav {
   text-align: right;
   flex: 1;
@@ -119,8 +127,12 @@ h1 {
   height: 24px;
 }
 
+.footer-icon {
+  opacity: 0.3;
+}
+
 .footer-icon:hover {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 </style>
