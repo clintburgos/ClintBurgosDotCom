@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img id="me_cutout" src="../assets/me_banner.jpg">
     <div id="about">
       <text-block
         title='I thrive with heavy research and fine-tuning.'
@@ -7,7 +8,6 @@
         Get in contact with me with the social media links at the bottom of the page. Together let’s learn, innovate, and make cool stuff!'
       />
     </div>
-    <img id="me_cutout" src="../assets/me_cutout.png">
   </div>
 </template>
 
@@ -21,14 +21,14 @@ export default {
 
 #about {
   vertical-align: top;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 #me_cutout {
-  margin-left: 8px;
-  width: 211px;
-  height: 250px;
-  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  width: 100%
+  /*display: inline-block;*/
 }
 
 </style>

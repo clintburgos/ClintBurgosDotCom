@@ -15,10 +15,21 @@ export default {
 
 <style scoped>
 
-#text-block-container {
-  width: 620px;
-  text-align: left;
+h1 {
+  font-family: 'Metric-Bold', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
+  color: #000000;
+  margin: 0px;
+}
+
+#text-block-container {
+  margin: 0 auto;
+  max-width: 860px;
+  text-align: left;
+  font: inherit;
 }
 
 </style>
