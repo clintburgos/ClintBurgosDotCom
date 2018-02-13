@@ -11,6 +11,10 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/resume',
+      redirect: 'static/resumes/clintburgos_resume_3-30-16.pdf'
     }
   ]
 })

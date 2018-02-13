@@ -4,9 +4,9 @@
       <div id="nav-container">
         <div id="name"><a href="/">Clint Burgos</a></div>
         <div id="nav">
-          <a href='work'>Work</a>
+          <a href="work">Work</a>
           &emsp;
-          <a href='resume'>Resume</a>
+          <a href="static/resumes/clintburgos_resume_3-30-16.pdf" target="_blank">Resume</a>
         </div>
       </div>
       <div class="padding"></div>
@@ -15,11 +15,11 @@
     <div id="footer">
       <div id="line"></div>
       <a href="https://www.linkedin.com/in/clintburgos/" target="_blank">
-        <img class="footer-icon" src="./assets/linkedin_icon.png" alt="LinkedIn">
+        <img class="footer-icon" src="./assets/images/linkedin_icon.png" alt="LinkedIn">
       </a>
       &nbsp;
       <a href="https://github.com/clintburgos" target="_blank">
-        <img class="footer-icon" src="./assets/github_icon.png" alt="GitHub">
+        <img class="footer-icon" src="./assets/images/github_icon.png" alt="GitHub">
       </a>
     </div>
   </div>
@@ -41,7 +41,6 @@ body {
 a {
   color: #999999;
   text-decoration: none;
-  target: '_blank';
 }
 
 a:visited {
@@ -138,7 +137,7 @@ h1 {
 }
 
 .footer-icon:hover {
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 </style>

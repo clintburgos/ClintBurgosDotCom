@@ -1,6 +1,6 @@
 <template>
   <div id="home-container">
-    <img id="me_cutout" src="../assets/me_banner.jpg">
+    <img id="me_cutout" src="../assets/images/me_banner.jpg">
     <div class="padding"></div>
     <div id="about">
       <text-block
@@ -20,16 +20,10 @@ export default {
 
 <style scoped>
 
-#about {
-  vertical-align: top;
-  /*display: inline-block;*/
-}
-
 #me_cutout {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  /*display: inline-block;*/
 }
 
 </style>
