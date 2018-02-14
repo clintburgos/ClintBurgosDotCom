@@ -9,7 +9,6 @@
           <a href="static/resumes/clintburgos_resume_3-30-16.pdf" target="_blank">Resume</a>
         </div>
       </div>
-      <div class="padding"></div>
     </div>
     <router-view/>
     <div id="footer">
@@ -89,6 +88,7 @@ h1 {
 
 #nav-container {
   display: flex;
+  margin-bottom: 24px;
 }
 
 #name {
@@ -114,7 +114,7 @@ h1 {
 }
 
 #line {
-  margin-top: 32px;
+  margin-top: 8px;
   margin-bottom: 32px;
   height: 1px;
   background-color: #999999;
@@ -122,14 +122,10 @@ h1 {
 }
 
 #footer {
-  margin-top: 40px;
+  margin-top: 128px;
   margin-left: 128px;
   margin-right: 128px;
   margin-bottom: 128px
-}
-
-.padding {
-  height: 24px;
 }
 
 .footer-icon {

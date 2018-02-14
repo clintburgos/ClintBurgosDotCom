@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
+import Work from '@/components/Work'
 
 Vue.use(Router)
 
@@ -13,8 +14,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/resume',
-      redirect: 'static/resumes/clintburgos_resume_3-30-16.pdf'
+      path: '/work',
+      name: 'Work',
+      component: Work
     }
   ]
 })

@@ -1,7 +1,6 @@
 <template>
   <div id="home-container">
-    <img id="me_cutout" src="../assets/images/me_banner.jpg">
-    <div class="padding"></div>
+    <img id="me-banner" src="../assets/images/me_banner.jpg">
     <div id="about">
       <text-block
         title='I thrive with heavy research and fine-tuning.'
@@ -20,10 +19,11 @@ export default {
 
 <style scoped>
 
-#me_cutout {
+#me-banner {
   padding: 0px;
   margin: 0px;
   width: 100%;
+  margin-bottom: 64px;
 }
 
 </style>
