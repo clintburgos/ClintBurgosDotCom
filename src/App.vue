@@ -54,16 +54,6 @@ a:active {
   color: #424242;
 }
 
-h1 {
-  font-family: 'Metric-Bold', Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 1.2;
-  color: #000000;
-  margin: 0px;
-}
-
 #app {
   margin: 0px;
   padding: 0px;
