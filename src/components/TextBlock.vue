@@ -1,7 +1,7 @@
 <template>
   <div id="text-block-container">
     <h1>{{ title }}</h1>
-    <br>
+    <br v-if="title">
     <span v-html="text"></span>
     <a v-if="read_more_link" id="read-more" v-bind:href="read_more_link">Read More</a>
   </div>

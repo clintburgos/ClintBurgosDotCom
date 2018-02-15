@@ -4,7 +4,7 @@
       <div id="nav-container">
         <div id="name"><a href="/">Clint Burgos</a></div>
         <div id="nav">
-          <a href="work">Work</a>
+          <a href="/work">Work</a>
           &emsp;
           <a href="static/resumes/clintburgos_resume_3-30-16.pdf" target="_blank">Resume</a>
         </div>
@@ -35,6 +35,16 @@ export default {
 body {
   margin: 0px;
   padding: 0px;
+}
+
+h2 {
+  font-family: 'Metric-Bold', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0px;
 }
 
 a {
