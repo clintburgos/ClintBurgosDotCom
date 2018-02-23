@@ -73,7 +73,7 @@
 
 <script>
 export default {
-  name: 'Work'
+  name: 'Photonorm'
 }
 </script>
 

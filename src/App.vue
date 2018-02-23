@@ -65,7 +65,6 @@ a:active {
 }
 
 #app {
-  margin: 0px;
   padding: 0px;
   width: 100%;
   font-family: "lemonde-journal", Georgia, serif;;
@@ -81,20 +80,19 @@ a:active {
 }
 
 #header {
-  margin-top: 40px;
-  margin-left: 128px;
-  margin-right: 128px;
+  margin-top: 2.0833%;
+  margin-left: 6.6667%;
+  margin-right: 6.6667%;
+  margin-bottom: 2.0833%;
 }
 
 #nav-container {
   display: flex;
-  margin-bottom: 24px;
 }
 
 #name {
   text-align: left;
-  flex: 2;
-  margin: 0px;
+  flex: 1;
   display: inline-block;
 }
 
@@ -109,27 +107,30 @@ a:active {
 #nav {
   text-align: right;
   flex: 1;
-  margin: 0px;
   display: inline-block;
 }
 
 #line {
-  margin-top: 8px;
-  margin-bottom: 32px;
+  margin-top: 0.41667%;
+  margin-bottom: 2.0833%;
   height: 1px;
   background-color: #999999;
   position: relative;
 }
 
 #footer {
-  margin-top: 128px;
-  margin-left: 128px;
-  margin-right: 128px;
-  margin-bottom: 128px
+  margin-top: 6.6667%;
+  margin-left: 6.6667%;
+  margin-right: 6.6667%;
+  margin-bottom: 6.6667%;
 }
 
 .footer-icon {
   opacity: 0.3;
+  height: 13.3333%;
+  width: 13.3333%;
+  max-height: 64px;
+  max-width: 64px;
 }
 
 .footer-icon:hover {

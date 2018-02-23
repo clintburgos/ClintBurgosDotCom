@@ -28,7 +28,9 @@ h1 {
 
 #text-block-container {
   margin: 0 auto;
+  padding: 16px;
   max-width: 860px;
+  min-width: 32px;
   text-align: left;
   font: inherit;
 }
