@@ -28,9 +28,11 @@ h1 {
 
 #text-block-container {
   margin: 0 auto;
-  padding: 16px;
+  padding-top: 2.0833%;
+  padding-left: 6.6667%;
+  padding-right: 6.6667%;
+  padding-bottom: 0px;
   max-width: 860px;
-  min-width: 32px;
   text-align: left;
   font: inherit;
 }

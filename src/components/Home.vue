@@ -23,7 +23,6 @@ export default {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  margin-bottom: 32px;
 }
 
 </style>
