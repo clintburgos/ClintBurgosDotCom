@@ -75,7 +75,7 @@ video {
 #app {
   padding: 0px;
   width: 100%;
-  font-family: "lemonde-journal", Georgia, serif;;
+  font-family: "lemonde-journal", Georgia, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
