@@ -48,20 +48,28 @@ h2 {
 }
 
 a {
-  color: #999999;
+  color: #808080;
   text-decoration: none;
 }
 
 a:visited {
-  color: #999999;
+  color: #808080;
 }
 
 a:hover {
-  color: #424242;
+  color: #000000;
 }
 
 a:active {
-  color: #424242;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
 }
 
 #app {
@@ -135,6 +143,16 @@ a:active {
 
 .footer-icon:hover {
   opacity: 0.8;
+}
+
+.break {
+  margin-top: 2.0833%;
+}
+
+.banner {
+  width: 100%;
+  margin-top: 2.0833%;
+  margin-bottom: 2.0833%;
 }
 
 </style>

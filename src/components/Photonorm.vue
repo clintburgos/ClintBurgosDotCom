@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img class="banner" src="../assets/images/photonorm_banner.png">
     <text-block
       title="Normalizing the “mass” across stimuli photos"
       text="In 2015, I worked in the Lewis-Peacock fMRI lab at UT Austin for a semester. I was tasked with solving problems to make their research possible with code. All of the upcoming research projects utilized photos of objects as stimuli, which would be shown in different contexts to a subject while they were laying in an fMRI machine. They had noticed that some objects filled more space on the screen than others, causing a significant change in brain activity simply due to the the response of the visual system, and gave me the task of normalizing the “mass” across them.<br><br>I chose Java because I was most familiar with it at the time, and it has convenient built in libraries for filesystem commands and image manipulation. I checked my results visually and by comparing standard deviation of the scale ratio the program extracted for each image to do the normalization, comparing the ratios extracted for the input and the output sets.<br><br>My first approach was to count up the ratio of transparent to non-transparent pixels and use that to scale the image. I adjusted all scale factors so that the largest image was unscaled and the rest were made smaller so that none of them went out of bounds."
@@ -74,10 +75,6 @@ export default {
 </script>
 
 <style scoped>
-
-img {
-  max-width: 100%;
-}
 
 table {
   margin: 0 auto;
