@@ -4,6 +4,9 @@ import Home from '@/components/Home'
 import Work from '@/components/Work'
 import Photonorm from '@/components/Photonorm'
 import ColorSearch from '@/components/ColorSearch'
+import vueHeadful from 'vue-headful';
+
+Vue.component('vue-headful', vueHeadful);
 
 Vue.use(Router)
 

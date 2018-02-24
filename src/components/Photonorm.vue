@@ -1,5 +1,8 @@
 <template>
   <div>
+    <vue-headful
+      title='Photonorm by Clint Burgos'
+    />
     <img class="banner" src="../assets/images/photonorm_banner.png">
     <text-block
       title="Normalizing the “mass” across stimuli photos"

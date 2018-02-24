@@ -1,5 +1,8 @@
 <template>
   <div>
+    <vue-headful
+      title='Color Search by Clint Burgos'
+    />
     <img id="top-banner" class="banner" src="../assets/images/color_search_banner.png">
     <text-block
       title="Color palette-based search for Joss & Main"

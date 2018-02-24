@@ -1,5 +1,8 @@
 <template>
   <div>
+    <vue-headful
+      title='Clint Burgos'
+    />
     <img id="me-banner" src="../assets/images/me_banner.jpg">
     <div id="about">
       <text-block
