@@ -48,20 +48,20 @@ h2 {
 }
 
 a {
-  color: #808080;
+  color: #999999;
   text-decoration: none;
 }
 
 a:visited {
-  color: #808080;
+  color: #999999;
 }
 
 a:hover {
-  color: #000000;
+  color: #424242;
 }
 
 a:active {
-  color: #000000;
+  color: #424242;
 }
 
 img {

@@ -87,7 +87,7 @@
     <div class='break'></div>
     <text-block
       subtitle="Searching with Keywords"
-      text="A color palette UI was not intended be the first introduction of my color search in production however. First I needed to incorporate the new color search into keywords on the site's keyword search. I hoped I could just assign a good example of each color to each color name as keyword, but this did not work well. I then returned to HSV (HSL this time, actually) color space and manually cut it up into sections that I felt defined each color name. The results were... really good actually! To visualize the classifications I wrote a script to replace each pixel in an image with a color that best represents the color name its color was classified as, <a href='/static/color_search/hsl_binner_output2.html' target='_blank'>the results of which were saved to HTML</a>."
+      text="A color palette UI was not intended be the first introduction of my color search in production however. First I needed to incorporate the new color search into keywords on the site's keyword search. I hoped I could just assign a good example of each color to each color name as keyword, but this did not work well. I then returned to HSV (HSL this time, actually) color space and manually cut it up into sections that I felt defined each color name. The results were... really good actually! It was better than the existing Joss & Main color keyword search. To visualize the classifications I wrote a script to replace each pixel in an image with a color that best represents the color name its color was classified as, <a href='/static/color_search/hsl_binner_output2.html' target='_blank'>the results of which were saved to HTML</a>."
     />
     <div class='break'></div>
     <text-block
@@ -105,7 +105,12 @@
     <div class='break'></div>
     <text-block
       title="What I'd do with more time"
-      text="I was unable to complete productionization in my internship. I wrote an article outlining the things I can tried and why I made it the way I did, but the project was never picked up by anyone for completion. If Wayfair were to give this color search another go, there's <a href='https://github.com/sergeyk/rayleigh' target='_blank'>open source projects that solve this problem</a>. I'd get that running as a service that could take requests over the network. As for color name classification, there's <a href='https://wagenaartje.github.io/neataptic/articles/classifycolors/' target='_blank'> open source code for a neural network classifier</a>."
+      text="I was unable to complete productionization in my internship. I wrote an article outlining the things I can tried and why I made it the way I did, but the project was never picked up by anyone for completion. If Wayfair were to give this color search another go:
+      <ul>
+        <li>There's an <a href='https://github.com/sergeyk/rayleigh' target='_blank'>open source project that solves this problem</a>. I'd get that running as a service that could take requests over the network.</li>
+        <li>As for color name classification, there's <a href='https://wagenaartje.github.io/neataptic/articles/classifycolors/' target='_blank'> open source code for a neural network classifier</a>, and a bunch of other machine learning solutions that are more robust than the naive bayes.</li>
+        <li>Another area for improvement would be the use of images with transparent backgrounds, if possible, and if not I'd try to experiment with <a href='https://making.lyst.com/2014/02/13/background-removal/' target='_blank'>other ways to exclude the background</a>.</li>
+      </ul>"
     />
   </div>
 </template>
