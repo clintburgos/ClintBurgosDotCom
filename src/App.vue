@@ -155,4 +155,10 @@ video {
   margin-bottom: 2.0833%;
 }
 
+@media screen and (max-width: 860px) {
+  #nav-container {
+    font-size: 18px;
+  }
+}
+
 </style>
