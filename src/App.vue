@@ -4,7 +4,7 @@
       <div id="nav-container">
         <div id="name"><a href="/">Clint Burgos</a></div>
         <div id="nav">
-          <a href="/work">Work</a>
+          <a href="/work">Case Studies</a>
           &emsp;
           <a href="static/resumes/clintburgos_resume_3-30-16.pdf" target="_blank">Resume</a>
         </div>
@@ -88,7 +88,7 @@ video {
 }
 
 #header {
-  margin-top: 22px;
+  margin-top: 40px;
   margin-left: 6.6667%;
   margin-right: 6.6667%;
   margin-bottom: 40px;

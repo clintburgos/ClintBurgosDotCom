@@ -7,7 +7,7 @@
     <div id="about">
       <text-block
         title="I'm a creative software engineer with a passion for research and discovery."
-        text="After getting my start as a programmer in neuroscience labs, I took on a series of open-ended projects at Wayfair in which I had generous control of project direction and design. I've had experience building web/mobile apps, machine learning models, a streaming data pipeline, and more. The part of the process of software development I most enjoy is fine-tuning the results of an application through creative experimentation."
+        text="After getting my start as a programmer in neuroscience labs at Tufts and UT Austin, I took on a series of open-ended projects at Wayfair in which I had generous control of project direction and design. I've had experience building web/mobile apps, machine learning models, a streaming data pipeline, and more. The part of the process of software development I most enjoy is fine-tuning the results of an application through creative experimentation."
       />
       <text-block
         text="Get in contact with me with the social media links at the bottom of the page. Let’s learn, innovate, and make cool stuff!"
