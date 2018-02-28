@@ -121,8 +121,8 @@ video {
 }
 
 #line {
-  margin-top: 0.41667%;
-  margin-bottom: 2.0833%;
+  margin-top: 8px;
+  margin-bottom: 40px;
   height: 1px;
   background-color: #999999;
   position: relative;
@@ -132,7 +132,7 @@ video {
   margin-top: 128px;
   margin-left: 6.6667%;
   margin-right: 6.6667%;
-  margin-bottom: 6.6667%;
+  margin-bottom: 128px;
 }
 
 .footer-icon {
