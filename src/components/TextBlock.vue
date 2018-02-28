@@ -39,7 +39,7 @@ h2 {
 
 #text-block-container {
   margin: 0 auto;
-  padding-top: 2.0833%;
+  padding-top: 40px;
   padding-left: 6.6667%;
   padding-right: 6.6667%;
   padding-bottom: 0px;

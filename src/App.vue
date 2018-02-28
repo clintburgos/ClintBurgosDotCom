@@ -88,10 +88,10 @@ video {
 }
 
 #header {
-  margin-top: 2.0833%;
+  margin-top: 22px;
   margin-left: 6.6667%;
   margin-right: 6.6667%;
-  margin-bottom: 2.0833%;
+  margin-bottom: 40px;
 }
 
 #nav-container {
@@ -127,7 +127,7 @@ video {
 }
 
 #footer {
-  margin-top: 6.6667%;
+  margin-top: 128px;
   margin-left: 6.6667%;
   margin-right: 6.6667%;
   margin-bottom: 6.6667%;
@@ -146,13 +146,13 @@ video {
 }
 
 .break {
-  margin-top: 2.0833%;
+  margin-top: 40px;
 }
 
 .banner {
   width: 100%;
-  margin-top: 2.0833%;
-  margin-bottom: 2.0833%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 860px) {
