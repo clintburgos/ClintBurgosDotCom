@@ -60,8 +60,8 @@
     />
     <br><br>
     <text-block
-      title="What I'd do with more time"
-      text="After I completed this basic solution, it was good enough for the researchers and I moved on to other tasks. If I had more time on the project, here's what I'd do.
+      title="Next Steps"
+      text="After I completed this basic solution, the researchers liked the result and started using it in their studies. I then moved on to other tasks. If I had more time on the project, here's what I'd do.
       <ul>
         <li>Tune parameters with stochastic gradient descent, likely targeting lowest possible deviation in scale ratios extracted from output images.</li>
         <li>Create more metrics to measure success of normalization, instead of relying too heavily on visual perception.</li>

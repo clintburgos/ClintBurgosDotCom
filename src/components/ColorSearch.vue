@@ -6,10 +6,10 @@
     <img id="top-banner" class="banner" src="../assets/images/color_search_banner.png">
     <text-block
       title="Color palette-based search for Joss & Main"
-      text="Color is an important factor in choosing items for your home that match your existing style. Joss & Main's color search implementation relies on keywords provided by the manufacturer which limits the precision of the color search. Searching multiple colors does not take into account the prominence of the color (for example, 90% blue/10% red would be in the same bucket as 10% blue/90% red). During my summer internship I implemented a search based on color information extracted directly from product images that would also allow for percentage specification. It was modeled off of <a href='https://labs.tineye.com/multicolr/' target='_blank'>TinEye's excellent color search.</a>"
+      text="Color is an important factor in choosing items for your home that match your existing style. Joss & Main's color search implementation relies on keywords provided by the manufacturer which limits the precision of the color search. Searching multiple colors does not take into account the prominence of the color (for example, 90% blue/10% red would be in the same bucket as 10% blue/90% red). I implemented a search based on color information extracted directly from product images that would also allow for percentage specification. It was modeled off of <a href='https://labs.tineye.com/multicolr/' target='_blank'>TinEye's excellent color search.</a>"
     />
     <text-block
-      text="Wayfair and its sub-sites are built in PHP, so that's what I was restricted to working in. I decided to leverage <a href='https://www.imagemagick.org/script/index.php' target='_blank'>Image Magick</a> for image processing which is used at Wayfair to automatically format product images&mdash; and which I had <a href='/work/photonorm'>prior experience using</a>."
+      text="Wayfair and its sub-sites are built in PHP. I decided to leverage <a href='https://www.imagemagick.org/script/index.php' target='_blank'>Image Magick</a> for image processing which is used at Wayfair to automatically format product images&mdash; and which I had <a href='/work/photonorm'>prior experience using</a>."
     />
     <div class='break'></div>
     <text-block
@@ -107,8 +107,8 @@
     </video>
     <div class='break'></div>
     <text-block
-      title="What I'd do with more time"
-      text="I was unable to complete productionization in my internship. I wrote an article outlining the things I can tried and why I made it the way I did, but the project was never picked up by anyone for completion. If Wayfair were to give this color search another go:
+      title="Next steps"
+      text="This project is on hold at Wayfair, but these would be my next steps:
       <ul>
         <li>There's an <a href='https://github.com/sergeyk/rayleigh' target='_blank'>open source project that solves this problem</a>. I'd get that running as a service that could take requests over the network.</li>
         <li>As for color name classification, there's <a href='https://wagenaartje.github.io/neataptic/articles/classifycolors/' target='_blank'> open source code for a neural network classifier</a>, and a bunch of other machine learning solutions that are more robust than the naive bayes.</li>
