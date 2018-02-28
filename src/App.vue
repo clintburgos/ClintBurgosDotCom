@@ -100,7 +100,7 @@ video {
 
 #name {
   text-align: left;
-  flex: 1;
+  flex: 2;
   display: inline-block;
 }
 
@@ -116,6 +116,8 @@ video {
   text-align: right;
   flex: 1;
   display: inline-block;
+  white-space: nowrap;
+  flex-wrap: nowrap;
 }
 
 #line {
@@ -158,6 +160,20 @@ video {
 @media screen and (max-width: 860px) {
   #nav-container {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #nav-container {
+    display: block;
+  }
+  #nav {
+    display: block;
+    text-align: center;
+  }
+  #name {
+    display: block;
+    text-align: center;
   }
 }
 
