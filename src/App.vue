@@ -6,7 +6,7 @@
         <div id="nav">
           <a href="/work">Case Studies</a>
           &emsp;
-          <a href="static/resumes/clintburgos_resume_3-30-16.pdf" target="_blank">Resume</a>
+          <a href="static/resumes/clintburgos_resume_3-1-18.pdf" target="_blank">Resume</a>
         </div>
       </div>
     </div>
