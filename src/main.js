@@ -2,9 +2,12 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import TextBlock from './components/TextBlock'
 import router from './router'
 
 Vue.config.productionTip = false
+
+Vue.component('text-block', TextBlock)
 
 /* eslint-disable no-new */
 new Vue({
